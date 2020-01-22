@@ -23,7 +23,7 @@ describe 'hashketball' do
     end
   end
 
-  describe '#num_points_scored' do
+   describe '#num_points_scored' do
 
     it 'knows the number of points scored by each player' do
       expect(num_points_scored("Jeff Adrien")).to eq(10)
